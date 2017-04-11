@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_level_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/stage2"
+    android:orientation="vertical"
+    tools:context="com.example.denis.assignment3.LevelMenu">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backStage"
+        android:textSize="20dp"
+        android:text="Menu"
+        android:background="@color/green"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:textColor="@color/white"
+        android:id="@+id/levelFour"
+        android:text="Level 4"
+        />
+
+
+    <!--Declares the level four button -->
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:id="@+id/levelFive"
+        android:text="Level 5"/>
+    <!--Declares the level five button -->
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/red"
+        android:id="@+id/levelSix"
+        android:text="Level 6"/>
+    <!--Declares the level six button -->
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/gamebackground"
+    android:orientation="vertical"
+    tools:context="com.example.denis.assignment3.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Curious Panda"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"
+        android:textSize="40sp" />
+    <!--Declares the Title text-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/enteredUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Enter Username"
+            android:textColorHint="@color/white"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/enteredPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Enter Password" />
+
+    </LinearLayout>
+
+
+
+    <Button
+
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/playGame"
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:textColor="@color/white"
+
+        android:text="PLAY"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <Button
+
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/createAccount"
+        android:text="Create Account"
+        android:background="@color/green"
+        android:textColor="@color/white"
+
+        android:layout_gravity="left"/>
+    <!--Declares the play button -->
+
+
+
+</LinearLayout>
+

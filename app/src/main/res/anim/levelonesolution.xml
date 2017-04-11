@@ -1,0 +1,47 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+
+    <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromDegrees="0"
+        android:toDegrees="1080"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="12000" />
+    <!--Keeps rotating the panda image-->
+
+
+    <translate
+
+        android:toXDelta="600"
+
+        android:duration = "4000"
+        android:fillAfter="true"/>
+    <!--Moves the panda image to the right for a duration of 4000-->
+
+
+    <translate
+        android:startOffset = "4000"
+        android:toYDelta="520"
+        android:duration = "4000"
+        android:fillAfter="true"/>
+        <!--Moves the panda image down for a duration of 4000-->
+    <translate
+        android:startOffset = "8000"
+        android:toXDelta="840"
+        android:duration = "4000"
+        android:fillAfter="true"/>
+    <!--Moves the panda image to the right for a duration of 4000-->
+
+
+
+
+
+
+
+
+
+
+
+
+</set>
+

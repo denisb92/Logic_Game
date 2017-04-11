@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game_board"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/stage2level5"
+    android:orientation="vertical"
+    tools:context="com.example.denis.assignment3.GameBoard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+
+
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Back"
+
+            android:id="@+id/exit"
+            android:onClick="exit"
+
+            />
+
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="    "
+            android:contentDescription=" "
+            android:id="@+id/Btn1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="    "
+            android:id="@+id/Btn2"
+            android:contentDescription=" "/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="    "
+            android:id="@+id/Btn3"
+            android:contentDescription=" "/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:contentDescription=" "
+            android:text="    "
+            android:id="@+id/Btn4" />
+
+
+
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/ic_arrow_upward_black_24dp"
+            android:id="@+id/upBtn"
+            android:onClick="setRect"
+            android:contentDescription="up"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+
+            android:background="@drawable/ic_arrow_downward_black_24dp"
+            android:id="@+id/downBtn"
+            android:onClick="playMusic"
+            android:contentDescription="down"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/ic_arrow_back_black_24dp"
+            android:id="@+id/leftBtn"
+            android:onClick="setRect"
+            android:contentDescription="left"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/ic_arrow_forward_black_24dp"
+            android:id="@+id/rightBtn"
+            android:onClick="setRect"
+            android:contentDescription="right"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/ic_play_circle_outline_black_24dp"
+            android:id="@+id/playBtn"
+            android:onClick="setRect"
+            />
+
+        <!--Declares all the arrow buttons-->
+
+
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/PandaPic"
+        android:layout_width="50dp"
+        android:layout_marginTop="70dp"
+
+        android:layout_height="50dp"
+
+        android:src="@drawable/panda"/>
+    <!--Declares the panda image -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>
